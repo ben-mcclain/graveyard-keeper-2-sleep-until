@@ -1,0 +1,18 @@
+# Local game and tool references: never redistribute these.
+private-input/
+research/
+tools/
+LocalPaths.props
+
+# Build output and release packages
+**/bin/
+**/obj/
+dist/
+*.zip
+*.dll
+*.pdb
+
+# Local editor / OS files
+.vs/
+.idea/
+.DS_Store
