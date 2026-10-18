@@ -70,6 +70,10 @@ Graveyard Keeper 2/
 
 For your first test, disable other sleep/time-changing mods, especially **Better Sleep**. Compatibility with those mods and with multiplayer/co-op is untested.
 
+## Steam Workshop
+
+A [Workshop publishing kit and step-by-step guide](workshop/PUBLISH.md) are available. **No Workshop listing has been published yet.** The kit uses the same v0.1.0 DLL. Workshop subscriptions still require BepInEx plus manual installation or an optional community Workshop Loader.
+
 ## How sleeping works
 
 | Choice | Result |

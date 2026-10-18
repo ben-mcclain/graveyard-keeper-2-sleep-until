@@ -1,0 +1,42 @@
+SLEEP UNTIL v0.1.0 - GRAVEYARD KEEPER 2
+
+This is a BepInEx 5 CODE MOD, not a translation.
+Subscribing downloads it; it does not install BepInEx or load this mod by itself.
+
+REQUIREMENTS
+Windows x64 / Graveyard Keeper 2 / BepInEx 5 (built against 5.4.23.5).
+BepInEx: https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5
+
+MANUAL INSTALLATION
+1. Close the game and back up your save folder.
+2. Install BepInEx if needed and launch/close the game once.
+3. Copy BepInEx\plugins\SleepUntil from this item into the game's
+   BepInEx\plugins folder. The final path must be:
+   <game folder>\BepInEx\plugins\SleepUntil\SleepUntil.dll
+4. Start the game and use a straw or regular bed.
+
+OPTIONAL WORKSHOP LOADER
+Install the independently maintained GK2 Workshop Loader following its guide:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3807346541
+Then subscribe and approve Sleep Until when prompted. This integration is
+packaged according to its author guide but has not been tested in-game by us.
+Do not keep a manual copy alongside the Workshop-managed copy.
+
+USE
+Normal retains vanilla sleep. Till morning wakes at the next 6 a.m.
+Weekday options target that weekday's next 6 a.m. Before dawn, choosing today
+can mean this morning; at/after dawn, it means next week.
+F8 or Wake now ends scheduled sleep early. Cancel exits the selection menu.
+World simulation continues, so time-sensitive events can pass while asleep.
+
+UNINSTALL
+Manual: remove BepInEx\plugins\SleepUntil while the game is closed.
+Workshop Loader: unsubscribe and follow the loader's removal instructions.
+Uninstalling does not undo elapsed game time. Restore your backup if needed.
+
+STATUS
+v0.1.0 is reported working in-game. Other sleep/time mods, multiplayer/co-op,
+all controller setups, future updates, and non-Windows platforms are untested.
+
+Full guide, source (MIT), and bug reports:
+https://github.com/ben-mcclain/graveyard-keeper-2-sleep-until

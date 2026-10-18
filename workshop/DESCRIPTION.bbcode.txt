@@ -1,0 +1,30 @@
+[h1]Sleep Until[/h1]
+Choose when to wake up in Graveyard Keeper 2: sleep normally, until the next morning, or until a chosen weekday.
+
+[b]This is a BepInEx code mod, not a translation.[/b] The game's current uploader only offers the Translation category. Subscribing alone does not load this mod.
+
+[h2]Features[/h2]
+[list]
+[*]Normal: preserve the game's usual sleep behavior.
+[*]Till morning: wake at the next 6 a.m.
+[*]Choose any of the six weekdays and see the approximate wait.
+[*]Scheduled sleep works at full energy.
+[*]Wake early with F8 or the on-screen Wake now button.
+[*]Keep the game's normal accelerated world simulation and wake/save path.
+[/list]
+World processes continue while you sleep. Long sleeps can pass over events. Before 6 a.m., selecting today's weekday targets this morning; at or after 6 a.m., it targets next week.
+
+[h2]Installation[/h2]
+Requires Windows x64, Graveyard Keeper 2, and [url=https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5]BepInEx 5.4.23.5[/url] installed in the game folder.
+
+[list]
+[*]Manual: copy this item's BepInEx\plugins\SleepUntil folder into the game's BepInEx\plugins folder. See INSTALL.txt.
+[*]Optional: install [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3807346541]GK2 Workshop Loader[/url] using its guide, subscribe, and approve the mod. This package follows its author guide; we have not tested that integration in-game.
+[/list]
+Do not keep both manual and Workshop-managed copies. Back up your saves before adding mods.
+
+[h2]Compatibility[/h2]
+v0.1.0 has been reported working in-game. Other sleep/time mods (including Better Sleep), co-op, all controller setups, future game versions, and other operating systems have not been fully tested. No GK2 Mod Framework requirement. No game DLLs are bundled.
+
+[h2]Source and support[/h2]
+[url=https://github.com/ben-mcclain/graveyard-keeper-2-sleep-until]Source, full instructions, and bug reports[/url]. MIT license. Created by Ben McClain with Shart. Unofficial community mod, not affiliated with the game's developers.
